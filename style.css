@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+}
+#user-cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.user-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: green;
+  }
+  .user-card h2, p {
+    margin-top: 0;
+    color: white;
+  }
